@@ -2,15 +2,15 @@
 
 import React from 'react';
 import { Provider } from 'react-redux';
+// Absolute imports
 import store from './Store/store';
-import { LearnFormik } from './Components/LearnFormik';
+import PostsList from './Components/PostsList';
 
 const App = () => {
   return (
     <Provider store={store}>
       <div>
-        {/* <PostsList /> */}
-        <LearnFormik />
+        <PostsList />
       </div>
     </Provider>
   );
