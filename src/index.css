@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.formik_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(3, 3, 3);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 15px;
+}
+.formik_form div{
+  margin: 10px;
+}
