@@ -1,7 +1,7 @@
 // PostsList.js
-
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+// Absolute imports
 import { fetchPosts, addPost, updatePost, deletePost } from '../Store/actions';
 
 const PostsList = () => {
